@@ -1,4 +1,6 @@
 import interview from '../assets/interview.jpg';
+import smartlink from '../assets/smartlink.jpg';
+import cinefy from '../assets/cinefy.jpg';
 import bhojnam from '../assets/bhojnam.png';
 import quora from '../assets/quora.jpg';
 import {FaGithub} from 'react-icons/fa';
