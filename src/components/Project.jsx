@@ -12,19 +12,20 @@ const Project = ({ darkMode }) => {
             tags: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS']
         },
         {
-            id: 2,
-            title: 'Bhojnam',
-            desc: 'Developed Bhojnam, a responsive food ordering web application using React.js and Tailwind CSS, featuring a modern UI, component-based architecture, and mobile-friendly design',
-            image: bhojnam,
-            tags: ['React', 'Node.js', 'Tailwind CSS']
-        },
-        {
-            id: 3,
-            title: 'Quora Posts',
-            desc: 'Developed Quora Posts, a web application implementing CRUD operations using Node.js and Express.js, allowing users to create, edit, and manage posts dynamically.',
-            image: quora,
-            tags: ['React', 'Node.js', 'Express.js', 'EJS', 'CRUD']
-        },
+    id: 2,
+    title: 'SmartLink',
+    desc: 'Developed SmartLink, a URL shortening web application that allows users to generate short, shareable links with efficient redirection, built using Node.js and Express.js with a clean and responsive UI.',
+    image: smartlink,
+    tags: ['Node.js', 'Express.js', 'MongoDB', 'React']
+},
+{
+    id: 3,
+    title: 'Cinefy',
+    desc: 'Developed Cinefy, a movie browsing web application that fetches and displays real-time movie data using APIs, featuring search functionality, dynamic UI, and responsive design.',
+    image: cinefy,
+    tags: ['React', 'API', 'Tailwind CSS']
+}
+        ,
     ];
 
     return (
