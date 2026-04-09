@@ -10,14 +10,14 @@ import vite from '../assets/vite.png';
 const Skills = ({ darkMode }) => {
 
     const skills = [
-        { name: 'C++', icon: cpp, level: 95, color: 'from-orange-500 to-amber-500' },
+        { name: 'C++', icon: cpp, level: 75, color: 'from-orange-500 to-amber-500' },
         
-        { name: 'Data Structure And Algorithm', icon: dsa, level: 75, color: 'from-yellow-500 to-amber-500' },
-        { name: 'react', icon: react, level: 65, color: 'from-cyan-500 to-blue-500' },
+        { name: 'Data Structure And Algorithm', icon: dsa, level: 60, color: 'from-yellow-500 to-amber-500' },
+        { name: 'react', icon: react, level: 60, color: 'from-cyan-500 to-blue-500' },
         { name: 'tailwind', icon: tailwind, level: 25, color: 'from-teal-500 to-cyan-500' },
-        { name: 'Javascript', icon: js, level: 80, color: 'from-green-500 to-emerald-500' },
-        { name: 'SQL', icon: sql, level: 75, color: 'from-blue-500 to-indigo-500' },
-        { name: 'vite', icon: vite, level: 80, color: 'from-red-500 to-orange-500' },
+        { name: 'Javascript', icon: js, level: 75, color: 'from-green-500 to-emerald-500' },
+        { name: 'SQL', icon: sql, level: 60, color: 'from-blue-500 to-indigo-500' },
+        { name: 'vite', icon: vite, level: 70, color: 'from-red-500 to-orange-500' },
         { name: 'framer motion', icon: framer_motion, level: 10, color: 'from-blue-500 to-cyan-500' },
     ];
 
