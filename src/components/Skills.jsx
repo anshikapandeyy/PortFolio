@@ -17,8 +17,8 @@ const Skills = ({ darkMode }) => {
         { name: 'tailwind', icon: tailwind, level: 25, color: 'from-teal-500 to-cyan-500' },
         { name: 'Javascript', icon: js, level: 75, color: 'from-green-500 to-emerald-500' },
         { name: 'SQL', icon: sql, level: 60, color: 'from-blue-500 to-indigo-500' },
-        { name: 'node.js', icon: vite, level: 50, color: 'from-red-500 to-orange-500' },
-        { name: 'express.js', icon: framer_motion, level: 30, color: 'from-blue-500 to-cyan-500' },
+        { name: 'node.js', icon: node, level: 50, color: 'from-red-500 to-orange-500' },
+        { name: 'express.js', icon: express, level: 30, color: 'from-blue-500 to-cyan-500' },
     ];
 
     return (
