@@ -1,11 +1,11 @@
 import cpp from '../assets/cpp.png';
-import framer_motion from '../assets/framer_motion.png';
+import express from '../assets/express.jfif';
 import dsa from '../assets/dsa.png';
 import react from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
 import js from '../assets/js.png';
 import sql from '../assets/sql.png';
-import vite from '../assets/vite.png';
+import node from '../assets/node.png';
 
 const Skills = ({ darkMode }) => {
 
@@ -17,8 +17,8 @@ const Skills = ({ darkMode }) => {
         { name: 'tailwind', icon: tailwind, level: 25, color: 'from-teal-500 to-cyan-500' },
         { name: 'Javascript', icon: js, level: 75, color: 'from-green-500 to-emerald-500' },
         { name: 'SQL', icon: sql, level: 60, color: 'from-blue-500 to-indigo-500' },
-        { name: 'vite', icon: vite, level: 70, color: 'from-red-500 to-orange-500' },
-        { name: 'framer motion', icon: framer_motion, level: 10, color: 'from-blue-500 to-cyan-500' },
+        { name: 'node.js', icon: vite, level: 50, color: 'from-red-500 to-orange-500' },
+        { name: 'express.js', icon: framer_motion, level: 30, color: 'from-blue-500 to-cyan-500' },
     ];
 
     return (
