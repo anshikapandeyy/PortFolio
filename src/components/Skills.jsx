@@ -10,12 +10,12 @@ import node from '../assets/node.png';
 const Skills = ({ darkMode }) => {
 
     const skills = [
-        { name: 'C++', icon: cpp, level: 75, color: 'from-orange-500 to-amber-500' },
+        { name: 'C++', icon: cpp, level: 70, color: 'from-orange-500 to-amber-500' },
         
         { name: 'Data Structure And Algorithm', icon: dsa, level: 60, color: 'from-yellow-500 to-amber-500' },
         { name: 'react', icon: react, level: 60, color: 'from-cyan-500 to-blue-500' },
-        { name: 'tailwind', icon: tailwind, level: 25, color: 'from-teal-500 to-cyan-500' },
-        { name: 'Javascript', icon: js, level: 75, color: 'from-green-500 to-emerald-500' },
+        { name: 'tailwind', icon: tailwind, level: 30, color: 'from-teal-500 to-cyan-500' },
+        { name: 'Javascript', icon: js, level: 60, color: 'from-green-500 to-emerald-500' },
         { name: 'SQL', icon: sql, level: 60, color: 'from-blue-500 to-indigo-500' },
         { name: 'node.js', icon: node, level: 50, color: 'from-red-500 to-orange-500' },
         { name: 'express.js', icon: express, level: 30, color: 'from-blue-500 to-cyan-500' },
