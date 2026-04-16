@@ -176,7 +176,7 @@ const Hero = ({ darkMode }) => {
                 id='home'
                 data-aos='fade-up'
                 data-aos-delay='250'
-                className='body-font z-10 flex items-center justify-center pt-20 sm:pt-24 lg:pt-28'
+                className='body-font z-10 flex items-center justify-center pt-16 sm:pt-18 lg:pt-20'
             >
 
                 <div className='max-w-3xl w-full mx-auto px-4 sm:px-8 py-16 text-center'>
