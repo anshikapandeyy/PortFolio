@@ -203,25 +203,21 @@ const Hero = ({ darkMode }) => {
                             </a>
                         ))}
                     </div>
-
-                    {/* Heading */}
                     <h1 className={`text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 ${theme.textPrimary}`}>
                         Hi, I'm Anshika Pandey
                     </h1>
 
-                    {/* Subheading */}
+                    
                     <h2 className="text-xl sm:text-2xl text-orange-500 font-semibold mb-4">
                         Full Stack Developer | DSA Enthusiast
                     </h2>
 
-                    {/* Description */}
                     <p className={`mb-8 leading-relaxed max-w-2xl mx-auto ${theme.textSecondary}`}>
                         I am a Computer Science undergraduate at PSIT with a strong interest in software
                         development and problem solving. I have solved 600+ problems on LeetCode and
                         enjoy building web applications using React, Node.js, and modern web technologies.
                     </p>
 
-                    {/* Buttons */}
                     <div className='flex flex-col sm:flex-row justify-center gap-4'>
 
                         <a href={cv} download>
@@ -241,7 +237,6 @@ const Hero = ({ darkMode }) => {
                     </div>
                 </div>
 
-                {/* Background Glow */}
                 <div className={`absolute -top-20 -left-20 w-64 h-64 ${theme.decorativeCircle} rounded-full blur-3xl animate-pulse hidden sm:block`}></div>
 
             </section>
